@@ -1,4 +1,5 @@
 # This dockerfile is used to build sandbox image for docker clouds. It's not meant to be used in projects
+# Test 1
 FROM ruby:2.4.0
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
 RUN mkdir /spree
